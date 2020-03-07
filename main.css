@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+body, h1, h2, h3, h4, h5, h5, p, article{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+	margin:0;
+	padding:0;
+	background-color: #fafafa
+}
+.color-red{
+	color: #DA0000;
+}
+.header-strip{
+height: auto;
+background-color: #1A1A1A
+}
+.header-strip-text{
+	color: white;
+	text-align: center;
+	padding: 15px 6px 6px 6px;
+	font-size: 20px;	
+}
+#mob-banner{
+    display: none;
+}
+.offer-box{
+	background-image: url("box-bg.jpg");
+	background-size: cover;
+	border-radius: 20px;
+	padding: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+}
+
+.offer-box h3{
+  font-size: 50px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: center;
+  color: #474747;
+}
+.offer-box p{
+	  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #474747;
+}
+.cta{
+	width: 100%;
+	color: white;
+	background-color: #DA0000;
+	font-size: 30px;
+	border: none;
+	border-radius: 5px;
+	padding:10px;
+	margin-top: 20px;
+	font-weight: 
+}
+.free-ship{
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+  color: #eb0000;
+}
+.top-40{
+	margin-top:40px;
+}
+.h3-black{
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.8px;
+  color: #000000;
+}
+.p-black{
+	 font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #000000;
+}
+.h2-red{
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f80909;
+}
+.black-block{
+   background-image: url("black-bg.png");
+   background-size: cover;
+   width: 100%
+}
+.red-block{
+   background-image: url("red-bg.png");
+   background-size: cover;
+   width: 100%
+}
+.top-25{
+	margin-top: 20%
+}
+.footer{
+	background-color: #292929;
+}
+@media only screen and (max-width: 600px) {
+#web-banner{display: none;}
+#mob-banner{display: block;}
+.offer-box h3{font-size: 30px;}
+.offer-box p{font-size: 20px;}
+.cta{font-size: 25px;font-weight: bold}
+.free-ship{font-size: 20px;}
+.mob-center{text-align: center;}
+.top-25{margin-top: 0px}
+}
